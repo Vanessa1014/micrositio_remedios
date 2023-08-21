@@ -1,4 +1,101 @@
-body{
-background: green;
-color: purple;
-}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+    background-color: #FFFFFF;
+  }
+  body{
+    margin:0px;
+    background:#F5F5F5;
+    }
+  .boton{
+    cursor:pointer;
+    position:absolute;
+    left:5px;
+    top:50%;
+    margin-top:-20px;
+    width:40px;
+    height:40px;
+    background:darkgray;
+    border-radius:70px;
+    color:rgb(3,3,3);
+    line-height:40px;
+    text-align:center;
+    font-size:21px;
+    
+  }
+  #menu {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #69EEEE;
+    height: 50px;
+    padding: 4px;
+    align-items: center;
+   }
+  #suscripcion{
+    background:#BECED3;
+    height:200px;
+    font-size:20px;
+    font-family:"Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  #formulario{
+    height:70px;
+    width:250px;
+    margin:20 auto;
+    border:1px solid white;
+    text-align:center;
+    box-sizing:content-box;
+    padding-top:30px;
+   }
+  
+  .item{
+    color:#69EEEE;
+    font-size:20px;
+    font-family:"Arial", sans-serif;
+    text-decoration:none;
+    margin-left:12px;
+    color:purple;
+    }
+  
+  .item:hover{
+    color:darkblue;
+  }
+  .parrafo{
+    margin-top:40px;
+    color:purple;
+    font-size:14px;
+    font-family:"Arial", sans-serif;
+  }
+  #banner{
+    background:#001924;
+    text-align:center;
+    margin-bottom:50px;
+  }
+  footer{
+  background:#C8A2C8;
+  color:white;
+  font-family:"Roboto", sans-serif;
+  font-size:12px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .remedios{
+    font-family:"Arial", sans-serif;
+    color:purple;
+  }
+  
+  .column {
+    width: calc(33.33% - 20px); 
+    padding: 20px;
+    box-sizing: border-box;
+  }
