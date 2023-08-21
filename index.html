@@ -5,10 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <script>src="js/vendor/howler.min.js"</script>
+    <script>src="js/main.js"</script>
 </head>
-<body>
-    <h1>¡Hola mundo!</h1>
-</body>
-</html>
+<div class="img-container">
+    <img src="https://res.cloudinary.com/dzne08rlu/image/upload/v1689051738/t_vj9pqn.png" width="150" height="75">
+  </div>
+  
+  <header id="menu">
+    <nav id="home">
+      <a class="item" href="#home">Home</a>
+      <a class="item" href="#contacto">Artistas</a>
+      <a class="item" href="#perfil">Perfil</a>
+      <a class="item" href="#galeria">Galeria</a>
+      <a class="item" href="#formulario">Contacto</a>
+    </nav>
+    <span>
+      <img id="btn_play" src="https://icons.iconarchive.com/icons/graphicloads/100-flat/72/play-icon.png" alt="">
+      <img id="btn_stop" class="ocultar" src="https://icons.iconarchive.com/icons/graphicloads/100-flat/72/stop-2-icon.png" alt="">
+    </span>
+  </header>
+  
+  <section id="banner">
+    <img src="https://res.cloudinary.com/dzne08rlu/image/upload/v1692243796/Remedios-Varo-Bordando-el-manto-terrestre-1961_pk6alt.jpg" alt="">
+  </section>
+  
+  <header>
+    <div class="boton">
+      &larr;
+    </div>
+    <div class="boton derecha">
+      &rarr;
+    </div>
+    <h1 class="remedios">Remedios Varo</h1>
+  </header>
+  
+    <section class="parrafo">
+      <h1>La Alquimia de la Forma y el Color</h1>
+      <p>Varo dominaba la alquimia de la forma y el color, dando vida a composiciones visualmente impactantes. Sus creaciones rebosan con paletas cromáticas que evocan emociones y estados de ánimo únicos. Desde tonos vibrantes hasta sombras misteriosas, su uso del color te sumerge en su visión artística única.</p>
+    </section>
+  
+    <section class="parrafo">
+      <h1>Viaje a Través del Surrealismo</h1>
+      <p>Varo fue una figura destacada en el movimiento surrealista, llevando sus ideas y técnicas a nuevas alturas. Sumérgete en la mente de la artista mientras exploras mundos oníricos y escenas que desafían la lógica convencional. Cada trazo en sus pinturas es un paso más en un viaje inolvidable a través de la imaginación surrealista.</p>
+    </section>  
+  
+    <section class="parrafo">
+      <h1>Visita una Exposición Única</h1>
+      <p>Si deseas sumergirte completamente en el mundo de Remedios Varo, no pierdas la oportunidad de asistir a una exposición dedicada a su obra. Experimenta la magia de sus creaciones en persona, observa los detalles que se pierden en las reproducciones y déjate llevar por la atmósfera que solo sus cuadros pueden crear. No te pierdas la oportunidad de conocer a una de las artistas más intrigantes y visionarias de todos los tiempos.</p>
+      <span>
+        <img id="btn_playb" src="https://icons.iconarchive.com/icons/graphicloads/100-flat/72/play-icon.png" alt="">
+        <img id="btn_stopb" class="ocultar" src="https://icons.iconarchive.com/icons/graphicloads/100-flat/72/stop-2-icon.png" alt="">
+      </span>
+    </section> 
+  
+    <section id="suscripcion">
+      <form action id="formulario">
+        <label for="boletin">Suscríbete al newsletter</label><br>
+        <input type="text" id="boletin" placeholder="correo@dominio.com" required>
+        <input type="submit" id="btn_enviar" value="Suscribir">
+      </form>
+      <span>
+        <img id="btn_playC" src="https://icons.iconarchive.com/icons/graphicloads/100-flat/72/play-icon.png" alt="">
+        <img id="btn_stopC" class="ocultar" src="https://icons.iconarchive.com/icons/graphicloads/100-flat/72/stop-2-icon.png" alt="">
+      </span>
+    </section> 
+  
+    <footer>
+      <div>
+        <div>
+          <h1>Trazarte</h1>
+          <p>¡Síguenos para más contenido!</p>
+        </div>
+        <div class="container">
+          <div class="column">
+            <h2>Artistas</h2>
+            <ul>
+              <li>Obras</li>
+              <li>Museos</li>
+              <li>Experiencias</li>
+              <li>Galeria</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h2>Quiénes somos</h2>
+            <ul>
+              <li>Comunidad</li>
+              <li>Newsletter</li>
+              <li>Contacto</li>
+              <li>Proyectos</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h2>Seguidores</h2>
+            <ul>
+              <li>Recursos</li>
+              <li>Blog</li>
+              <li>Podcast</li>
+              <li>Patrocinio</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div>
+          <span> © 2023 Trazarte. All Rights Reserved. </span>
+          <img src="https://www.konrad.com/app/themes/konrad-group/assets/images/icons/instagram.svg" alt="">
+          <img src="https://www.konrad.com/app/themes/konrad-group/assets/images/icons/linkedin.svg" alt="">
+          <img src="https://www.konrad.com/app/themes/konrad-group/assets/images/icons/facebook.svg" alt="">
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Incluimos la biblioteca de GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 
             
